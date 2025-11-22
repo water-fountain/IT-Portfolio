@@ -107,14 +107,17 @@ copy C:\Windows\System32\utilman.exe.bak C:\Windows\System32\utilman.exe
 
 ## Forced Restore (If Errors Occur) Fix
 
-**If an error❗occurs:** 
+**If an error does occur:** 
 
-Run a forced restore:
+You should run a forced restore:
 
-### Step 1: Take ownership
+<details>
+<summary>Step 1: Take ownership</summary>
+
 ```cmd
 takeown /f C:\Windows\System32\utilman.exe
 ```
+</details>
 
 ### Step 2: Grant yourself full permissions
 ```cmd
