@@ -1,21 +1,21 @@
-# Windows AD Password Reset Recovery Guide
+# Windows Locked Out Recovery Guide
 
 [![Windows](https://img.shields.io/badge/OS-Windows-blue)](https://www.microsoft.com)
 [![Warning](https://img.shields.io/badge/⚠️-Caution-red)](https://example.com)
 
-> **Warning:** Use Caution! This method involves replacing system files. Only use on personal PC, and if so, back up important data.
+> **Warning:** This method involves replacing system files. Only use on a computer you own. Always back up important data if possible.
 
 ---
 
 ## Goal
-Regain access to Windows / AD Directory if someone was locked out due to a forgotten password using the `utilman.exe` workaround / method.
+Regain access to Windows if you are locked out due to a forgotten password using the `utilman.exe` workaround.
 
 ---
 
 ## Steps
 
 <details>
-<summary>1. Boot Into Recovery Mode</summary>
+<summary>1. Boot Into Recovery</summary>
 
 1. Insert a Windows installation USB or DVD.
 2. Boot from the USB/DVD.
@@ -34,7 +34,7 @@ list volume
 exit
 ```
 
-2. Identify the drive letter (commonly `C:` or `D:`) where Windows is installed.
+2. Identify the drive letter where Windows is installed (commonly `C:` or `D:` in recovery mode).
 
 </details>
 
@@ -49,7 +49,7 @@ copy C:\Windows\System32\utilman.exe C:\Windows\System32\utilman.exe.bak
 
 *(Replace `C:` with your Windows drive if different.)*
 
-2. Confirm overwrite if prompted (type `Yes` or `Y`).
+2. Confirm overwrite if prompted (type `Yes`).
 
 </details>
 
@@ -102,6 +102,29 @@ copy C:\Windows\System32\utilman.exe.bak C:\Windows\System32\utilman.exe
 2. Confirm overwrite.
 
 </details>
+
+---
+
+## Forced Restore (If Errors Occur)
+
+❗ **If it STILL errors:**
+
+Run the forced restore:
+
+### Step 1: Take ownership
+```cmd
+takeown /f C:\Windows\System32\utilman.exe
+```
+
+### Step 2: Grant yourself full permissions
+```cmd
+icacls C:\Windows\System32\utilman.exe /grant administrators:F
+```
+
+### Step 3: Restore the original file
+```cmd
+copy C:\Windows\System32\utilman.exe.bak C:\Windows\System32\utilman.exe
+```
 
 ---
 
