@@ -89,9 +89,9 @@ Click Next until you reach Server Roles.
 ### 3. Install Active Directory Domain Services
 <details>
 <summary>Check:</summary>
+
 - Active Directory Domain Services
 - Allow required features
-
 Click Install.
 </details>
 
