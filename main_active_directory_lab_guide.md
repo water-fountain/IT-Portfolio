@@ -34,9 +34,13 @@ This guide will walk you through setting up a complete, albeit basic, Active Dir
 ## Setting Up the Domain Controller (Windows Server 2019 / 2022 Install)
 
 ### 1. Create a New VM
+<details>
+<summary>When creating the VM:</summary>
+
 - Allocate **2–4 vCPUs**
 - Assign **4–8 GB RAM**
 - Create a **40–60 GB virtual disk**
+</details>
 
 ### 2. Attach the Windows Server ISO
 Boot the VM from the ISO.
@@ -47,12 +51,14 @@ Boot the VM from the ISO.
 - Install to the virtual disk
 
 ### 4. Initial Configuration
-After install completes:
+<details>
+<summary>After install completes:</summary>
+
 - Create a strong local Administrator password
 - Open **Server Manager**
 - Set the computer name (ex: DC01)
 - Restart the VM
-
+</details>
 ### 5. Configure Network Settings
 <details>
 <summary>Set a static IP:</summary>
