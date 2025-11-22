@@ -31,7 +31,7 @@ This guide will walk you through setting up a complete, albeit basic, Active Dir
 
 ---
 
-## 📘 Setting Up the Domain Controller (Windows Server Install)
+## Setting Up the Domain Controller (Windows Server 2019 / 2022 Install)
 
 ### 1. Create a New VM
 - Allocate **2–4 vCPUs**
