@@ -1,15 +1,17 @@
-# Active Directory Home Lab Guide
+# Active Directory Home Lab
 
-This guide walks through setting up a complete Active Directory (AD) environment for IT help desk practice and resume projects.
+This guide will walk you through setting up a complete, albeit basic, Active Directory (AD) environment for IT help desk practice & project building.
 
 ---
 
-## 🚀 Goal
-Build a functional AD lab on your home machine using:
-- **Windows Server (Domain Controller)**
+## Goals
+<details>
+<summary>Build a functional AD lab on a home machine using:</summary>
+- **Windows Server 2019 (Domain Controller)**
 - **Windows 10/11 Client VM**
 - **pfSense or NAT networking (optional)**
 - **Users, OUs, GPOs, and basic administration tasks**
+</details>
 
 ---
 
