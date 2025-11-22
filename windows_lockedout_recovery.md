@@ -105,7 +105,7 @@ copy C:\Windows\System32\utilman.exe.bak C:\Windows\System32\utilman.exe
 
 ---
 
-## Forced Restore (If Errors Occur) Fix
+## Forced Restore Fix (If Errors Occur)
 
 **If an error does occur:** 
 
@@ -119,20 +119,26 @@ takeown /f C:\Windows\System32\utilman.exe
 ```
 </details>
 
-### Step 2: Grant yourself full permissions
+<details>
+<summary>Step 2: Grant yourself full permissions</summary>
+
 ```cmd
 icacls C:\Windows\System32\utilman.exe /grant administrators:F
 ```
+</details>
 
-### Step 3: Restore the original file
+<details>
+<summary>Step 3: Restore the original file</summary>
+
 ```cmd
 copy C:\Windows\System32\utilman.exe.bak C:\Windows\System32\utilman.exe
 ```
+</details>
 
-### Step 4: Reset PC & Check Ease of Access Controls
----
+<details>
+<summary>Step 4: Reset PC & Check Ease of Access Controls</summary>
 
-### Step 5: DONE!
+</details>
 
 ## How It Works
 The Windows login screen allows certain accessibility tools—like Utility Manager (`utilman.exe`)—to run *before* a user signs in fully. By temporarily replacing `utilman.exe` with `cmd.exe`, Windows unknowingly grants you a Command Prompt with system-level privileges at the login screen. Letting you bypass knowing your password, in order to let you reset passwords or enable accounts without normal login authentication.
