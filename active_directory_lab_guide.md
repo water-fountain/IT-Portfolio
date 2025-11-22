@@ -10,7 +10,7 @@ This guide will walk you through setting up a complete, albeit basic, Active Dir
 
 ---
 
-## Goals 
+## Goal
 <details>
 <summary>Build a functional AD lab on a home machine using:</summary>
 
@@ -22,7 +22,8 @@ This guide will walk you through setting up a complete, albeit basic, Active Dir
 
 ---
 
-## Requirements
+<summary>## Requirements</summary>
+<details>
 - Virtualization: VirtualBox, VMware, or Hyper-V
 - Windows Server ISO (2019 or 2022)
 - Windows 10/11 ISO
