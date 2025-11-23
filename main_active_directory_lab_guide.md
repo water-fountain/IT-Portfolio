@@ -207,6 +207,19 @@ Right‑click domain → New → Organizational Unit.
 
 </details>
 
+<details>
+<summary>How to Create an OU</summary>
+
+- Open Active Directory Users & Computers
+- Right click your domain (ex. lab.local)
+- Select New -> Organizational Unit
+- Enter the OU name (ex. Sales)
+- Click OK
+
+</details>
+
+Repeat for each department you would want to organize
+
 ### 4. Create User Accounts
 Create users inside the correct department OU for clear and more efficient management
 <details>
