@@ -61,6 +61,9 @@ This guide will walk you through setting up a complete, albeit basic, Active Dir
 - Open **Server Manager**
 - Set the computer name (ex: DC01)
 - Restart the VM
+
+![alt text](image-1.png)
+
 </details>
 
 ### 5. Configure Network Settings
