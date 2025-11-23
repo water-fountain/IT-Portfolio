@@ -92,7 +92,7 @@ Click Next until you reach **Server Roles**.
 
 ### 3. Install Active Directory Domain Services & Features
 <details>
-<summary>Check:</summary>
+<summary>Checklist:</summary>
 
 - Active Directory Domain Services
 - DHCP Server
