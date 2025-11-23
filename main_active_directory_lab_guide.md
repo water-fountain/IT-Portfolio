@@ -120,12 +120,15 @@ In Server Manager, click the yellow notification flag → Promote this server to
 Click **Next.**
 
 ### 3. Domain Controller Options
+<details>
+<summary>Checklist:</summary>
 - Leave Forest Functional Level at default
 - Leave Domain Functional Level at default
 - Ensure DNS server is checked
 - Global Catalog should be checked 
 - Leave RODC (Read-Only Domain Controller) unchecked
 - Set a DSRM (Directory Services Restore Mode) password
+</details>
 Click **Next.**
 
 ### 4. DNS & Additional Options
