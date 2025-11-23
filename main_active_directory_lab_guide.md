@@ -59,11 +59,10 @@ This guide will walk you through setting up a complete, albeit basic, Active Dir
 
 - Create a **strong** local Administrator password (i.e **OldPassword123!**)
 - Open **Server Manager**
-- Set the computer name (ex: DC01)
+- Set the computer name (ex: SRV-DC01)
 - Restart the VM
 
 ![alt text](image-1.png)
-
 </details>
 
 ### 5. Configure Network Settings
@@ -89,15 +88,22 @@ This guide will walk you through setting up a complete, albeit basic, Active Dir
 Click **Manage** → **Add Roles and Features**.
 
 ### 2. Choose Role-Based Installation
-Click Next until you reach Server Roles.
+![alt text](image-2.png)
+Click Next until you reach **Server Roles**.
 
-### 3. Install Active Directory Domain Services
+### 3. Install Active Directory Domain Services & Features
 <details>
 <summary>Check:</summary>
 
 - Active Directory Domain Services
-- Allow required features
-Click Install.
+- DHCP Server
+- DNS Server
+- File & Storage Services (2 of 12)
+- Remote Server Administrator Tools 
+- Windows Defender Anitvirus 
+- Windows Powershell 
+- Window Server Backup
+Click Install. (You can mix & match what you would like to add)
 </details>
 
 ---
