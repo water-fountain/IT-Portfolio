@@ -7,7 +7,7 @@ Projects Overview
 📁 [Active Directory Project](https://github.com/water-fountain/IT-Portfolio/blob/main/AD-Project/main_active_directory_lab_guide.md)
 
 <details>
-<summary>Information</summary>
+<summary>More Information:</summary>
 Simulates a Windows enterprise domain environment using Windows Server 2019 and Windows 10, focusing on identity management, network services, and access control.
 
 Key skills demonstrated:
@@ -21,10 +21,22 @@ Key skills demonstrated:
 
 📁 [osTicket Help Desk Lab (Planned / In Progress)]()
 
+<details>
+<summary>More Information:</summary>
+
+</details>
+
 📁 [Help Desk Ticket Scenarios (Planned / In Progress)]()
+
+<details>
+<summary>More Information:</summary>
+
+</details>
 
 📁 [Windows-Lockout-Recovery-Guide](https://github.com/water-fountain/IT-Portfolio/blob/main/Windows-Lockout-Recovery-Guide/windows_lockedout_recovery_guide.md)
 
+<details>
+<summary>More Information:</summary>
 Allows access to a Windows system or Windows Active Directory account, if you are locked out due to a forgotten password using the utilman.exe workaround. 
 
 Key Skills demonstrated:
@@ -33,6 +45,9 @@ Key Skills demonstrated:
 - Troubleshooting & Problem Solving: Diagnosing lockout causes and implementing effective solutions
 - System Administration: Modifying system files, using administrative privileges, and working with Windows utilities
 - Security Awareness: Maintaining system integrity and protecting data during recovery procedures
+
+</details>
+
 
 About Me
 
