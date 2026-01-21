@@ -11,17 +11,11 @@ Active Directory Domain Infrastructure Lab
 Simulates a Windows enterprise domain environment using Windows Server 2019 and Windows 10, focusing on identity management, network services, and access control.
 
 Key skills demonstrated:
-
 - Active Directory Domain Services (AD DS)
-
 - DNS & DHCP configuration
-
 - Group Policy Objects (GPOs)
-
 - Role-Based Access Control (RBAC)
-
 - NTFS permissions & secure file sharing
-
 - Domain join, authentication, and troubleshooting
 
 👉 View full documentation inside the project folder.
@@ -34,9 +28,18 @@ Help Desk Ticket Scenarios (Planned / In Progress)
 
 📁
 
-Windows Lockout Recovery Guide 
+Windows Recovery Guide 
 
 📁 [Windows-Lockout-Recovery-Guide](https://github.com/water-fountain/IT-Portfolio/blob/main/Windows-Lockout-Recovery-Guide/windows_lockedout_recovery_guide.md)
+
+Allows access to a Windows system or Windows Active Directory account, if you are locked out due to a forgotten password using the utilman.exe workaround. 
+
+Key Skills demonstrated:
+- Windows Account Management: Understanding local and Active Directory accounts, permissions, and policies
+- Password & Lockout Recovery: Safe application of the utilman.exe workaround to regain access to account
+- Troubleshooting & Problem Solving: Diagnosing lockout causes and implementing effective solutions
+- System Administration: Modifying system files, using administrative privileges, and working with Windows utilities
+- Security Awareness: Maintaining system integrity and protecting data during recovery procedures
 
 About Me
 
