@@ -4,8 +4,6 @@ This repository contains hands-on IT Support and Systems Administration projects
 
 Projects Overview
 
-Active Directory Domain Infrastructure Lab
-
 📁 [Active Directory Project](https://github.com/water-fountain/IT-Portfolio/blob/main/AD-Project/main_active_directory_lab_guide.md)
 
 Simulates a Windows enterprise domain environment using Windows Server 2019 and Windows 10, focusing on identity management, network services, and access control.
@@ -20,15 +18,9 @@ Key skills demonstrated:
 
 👉 View full documentation inside the project folder.
 
-osTicket Help Desk Lab (Planned / In Progress)
+📁 [osTicket Help Desk Lab (Planned / In Progress)]()
 
-📁
-
-Help Desk Ticket Scenarios (Planned / In Progress)
-
-📁
-
-Windows Recovery Guide 
+📁 [Help Desk Ticket Scenarios (Planned / In Progress)]()
 
 📁 [Windows-Lockout-Recovery-Guide](https://github.com/water-fountain/IT-Portfolio/blob/main/Windows-Lockout-Recovery-Guide/windows_lockedout_recovery_guide.md)
 
