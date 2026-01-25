@@ -75,7 +75,7 @@ This are recommended to have:
 - Set the computer/system name (ex: SRV-DC01)
 - Restart the VM
 
-![alt text](image-1.png)
+![alt text](<images/Domain Name Creation.png>)
 
 </details>
 
@@ -91,7 +91,7 @@ This are recommended to have:
    - Gateway: BLANK
    - Preferred DNS: 192.168.10.1
    
-![alt text](image.png)
+![alt text](<images/Static-IP Settings.png>)
 
 </details>
 
@@ -110,7 +110,7 @@ Click **Manage** → **Add Roles and Features**.
 
    - Select **Role-based or feature-based installation**
 
-![alt text](image-38.png)
+![alt text](<images/Role-based Selection.png>)
    
    - Click **Next**
 
@@ -121,7 +121,7 @@ Click **Manage** → **Add Roles and Features**.
 <summary>Steps:</summary>
    - Choose your server from the list (ex. SRV-DC01.lab.local)
 
-   ![alt text](image-39.png)
+   ![alt text](<images/Server Pool - Server.png>)
 
    - Click **Next**
 
@@ -219,7 +219,7 @@ This section covers the core structure of the Active Directory environment. You 
 - Search for **Windows Administrative Tools**
 - Click **Active Directory Users and Computers**
 
-![alt text](image-21.png)
+![alt text](<images/ADUC Folder.png>)
 
 </details>
 
@@ -241,7 +241,7 @@ This section covers the core structure of the Active Directory environment. You 
 - Admins 
 - Service Accounts 
 
-![alt text](image-40.png)
+![alt text](<images/DC Folders.png>)
 
 </details>
 
@@ -252,11 +252,11 @@ This section covers the core structure of the Active Directory environment. You 
 - Right click your domain (ex. **lab.local**)
 - Select **New** -> **Organizational Unit**
 
-![alt text](image-17.png)
+![alt text](<images/New OU Path.png>)
 
 - Enter the **OU** name (ex. **Sales**)
 
-![alt text](image-18.png)
+![alt text](<images/New OU Creation.png>)
 
 - Click **OK**
 
