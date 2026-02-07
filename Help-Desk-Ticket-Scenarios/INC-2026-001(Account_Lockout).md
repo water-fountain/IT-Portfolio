@@ -17,7 +17,7 @@ User is unable to access key company resources; such as email (Exchange Online),
 ## Environment:
 - Location: 2nd Floor Sales Department, Workstation C-201
 - Windows 10 Enterprise  
-- Authentication Protocol: Active Directory Domain Services (AD DS)
+- Network Services: Active Directory Domain Services (AD DS)
 - Affected User Principal Name: a.smith@lablocal.com
 
 ## Troubleshooting & Diagnostics
