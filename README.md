@@ -30,7 +30,14 @@ Key skills demonstrated:
 
 <details>
 <summary>More Information:</summary>
+Simulates real-world IT help desk incidents to demonstrate structured troubleshooting, documentation, and resolution of common Windows and user access issues within an enterprise support context.
 
+Key Skills demonstrated:
+- Incident and problem documentation
+- Windows operating system troubleshooting
+- Account and access issue resolution
+- Step-by-step diagnostic workflows
+- Technical communication and escalation criteria
 </details>
 
 📁 [Windows-Lockout-Recovery-Guide](https://github.com/water-fountain/IT-Portfolio/blob/main/Windows-Lockout-Recovery-Guide/windows_lockedout_recovery_guide.md)
