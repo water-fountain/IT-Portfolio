@@ -1,4 +1,4 @@
-Purpose:
+Purpose: Demonstrates troubleshooting of DHCP-related network failures, identification of APIPA address conditions, and restoration of network connectivity in a Windows enterprise environment.
 
 ![Windows](https://img.shields.io/badge/OS-Windows-blue)
 ![Lab](https://img.shields.io/badge/Project-Home%20Lab-purple)

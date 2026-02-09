@@ -1,4 +1,4 @@
-Purpose:
+Purpose: Demonstrates layered network troubleshooting to isolate DNS resolution failures from underlying IP connectivity issues in a Windows enterprise environment.
 
 ![Windows](https://img.shields.io/badge/OS-Windows-blue)
 ![Lab](https://img.shields.io/badge/Project-Home%20Lab-purple)
