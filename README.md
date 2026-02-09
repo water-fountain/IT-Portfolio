@@ -55,7 +55,6 @@ Key Skills demonstrated:
 - Troubleshooting & Problem Solving: Diagnosing lockout causes and implementing effective solutions
 - System Administration: Modifying system files, using administrative privileges, and working with Windows utilities
 - Security Awareness: Maintaining system integrity and protecting data during recovery procedures
-
 </details>
 
 About Me
