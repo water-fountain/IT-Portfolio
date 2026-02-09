@@ -11,6 +11,7 @@ Projects Overview
 Simulates a Windows enterprise domain environment using Windows Server 2019 and Windows 10, focusing on identity management, network services, and access control.
 
 Key skills demonstrated:
+
 - Active Directory Domain Services (AD DS)
 - DNS & DHCP configuration
 - Group Policy Objects (GPOs)
@@ -33,6 +34,7 @@ Key skills demonstrated:
 Simulates real-world IT help desk incidents to demonstrate structured troubleshooting, documentation, and resolution of common Windows and user access issues within an enterprise support context.
 
 Key Skills demonstrated:
+
 - Incident and problem documentation
 - Windows operating system troubleshooting
 - Account and access issue resolution
@@ -47,6 +49,7 @@ Key Skills demonstrated:
 Allows access to a Windows system or Windows Active Directory account, if you are locked out due to a forgotten password using the utilman.exe workaround. 
 
 Key Skills demonstrated:
+
 - Windows Account Management: Understanding local and Active Directory accounts, permissions, and policies
 - Password & Lockout Recovery: Safe application of the utilman.exe workaround to regain access to account
 - Troubleshooting & Problem Solving: Diagnosing lockout causes and implementing effective solutions
