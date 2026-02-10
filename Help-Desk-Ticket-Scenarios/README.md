@@ -26,7 +26,7 @@ All scenarios were executed and documented within a controlled **Active Director
 
 ## Ticket Scenarios
 
-### 1. Account Lockout Incident (INC-2026-001)
+### 1. 📁[Account Lockout Incident (INC-2026-001)](https://github.com/water-fountain/IT-Portfolio/blob/main/Help-Desk-Ticket-Scenarios/Tickets/INC-2026-001(Account_Lockout).md)
 **Key Skills Demonstrated:**
 
 * Active Directory account management
@@ -34,7 +34,7 @@ All scenarios were executed and documented within a controlled **Active Director
 * Group Policy lockout policy validation
 * User communication and credential education
 
-### 2. No Internet Connectivity – DNS Resolution Failure (INC-2026-002)
+### 2. 📁[No Internet Connectivity – DNS Resolution Failure (INC-2026-002)](https://github.com/water-fountain/IT-Portfolio/blob/main/Help-Desk-Ticket-Scenarios/Tickets/INC-2026-002(No_Internet_DNS).md)
 **Key Skills Demonstrated:**
 
 * Network connectivity testing (IP vs DNS)
@@ -42,7 +42,7 @@ All scenarios were executed and documented within a controlled **Active Director
 * DHCP lease renewal and cache flushing
 * Layered network troubleshooting methodology
 
-### 3. APIPA Address Assignment – No Network Connectivity (INC-2026-003)
+### 3. 📁[APIPA Address Assignment – No Network Connectivity (INC-2026-003)](https://github.com/water-fountain/IT-Portfolio/blob/main/Help-Desk-Ticket-Scenarios/Tickets/INC-2026-003(APIPA_Issue).md)
 **Key Skills Demonstrated:**
 
 * DHCP failure detection
@@ -50,7 +50,7 @@ All scenarios were executed and documented within a controlled **Active Director
 * Network adapter troubleshooting
 * Enterprise connectivity restoration
 
-### 4. Network Drive Not Appearing / Not Mapping (INC-2026-004)
+### 4. 📁[Network Drive Not Appearing / Not Mapping (INC-2026-004)](https://github.com/water-fountain/IT-Portfolio/blob/main/Help-Desk-Ticket-Scenarios/Tickets/INC-2026-004(Network_Drive_Not_Mapping).md)
 **Key Skills Demonstrated:**
 
 * Group Policy Preferences (Drive Maps)
@@ -58,7 +58,7 @@ All scenarios were executed and documented within a controlled **Active Director
 * NTFS and share permission validation
 * SMB file services troubleshooting
 
-### 5. Password Reset & Account Access Restoration (REQ-2026-001)
+### 5. 📁[Password Reset & Account Access Restoration (REQ-2026-001)](https://github.com/water-fountain/IT-Portfolio/blob/main/Help-Desk-Ticket-Scenarios/Tickets/REQ-2026-001(Password_Reset).md)
 **Key Skills Demonstrated:**
 
 * Secure password reset procedures
