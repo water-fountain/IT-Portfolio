@@ -21,9 +21,9 @@ Network Services: Active Directory Domain Services (AD DS), DHCP, DNS
 Affected User Principal Name: m.jones@lablocal.com
 
 # Troubleshooting & Diagnostics:
-1. Verified network connectivity issue at the workstation, and identified a (169.254.x.x) APIPA address using **ipconfig** on this specific workstation.
+1. Verified network connectivity issue at the workstation, and identified a (169.254.x.x) APIPA address using `ipconfig` on this specific workstation.
 2. Confirmed physical network connection and verified Ethernet link status at the NIC & switch port.
-3. Attempted DHCP lease renewal using **ipconfig /release** and **ipconfig /renew**, which failed to obtain a valid IP address.
+3. Attempted DHCP lease renewal using `ipconfig /release` and `ipconfig /renew`, which failed to obtain a valid IP address.
 4. Tested connectivity on a neighboring workstation connected to the same switch, confirming normal network operation.
 5. Reviewed DHCP server status and scope availability on the DC (domain controller).
 6. Identified the affected workstation’s switch port was assigned to an incorrect VLAN, preventing access to the DHCP server.

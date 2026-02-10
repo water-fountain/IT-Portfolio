@@ -25,10 +25,10 @@ The User's inability to access external websites, cloud based services, and impo
 ## Troubleshooting & Diagnostics
 1. Confirmed lack of internet connectivity at the workstation by testing access to external and internal resources via web browser. (google chrome, mozilla firefox)
 2. Verified physical network connection and confirmed workstation maintained an active Ethernet link.
-3. Tested raw IP connectivity using **ping 8.8.8.8**, which succeeded, confirming network connectivity beyond the local subnet.
-4. Tested hostname resolution using **nslookup** & **ping google.com**, which failed, indicating that it was a DNS related issue. 
-5. Reviewed workstation DNS settings using **ipconfig /all** & identified incorrect DNS server entires not pointing to the domain DNS server.
-6. Flushed the local DNS cache using **ipconfig /flushdns** & renewed IP address using **ipconfig /release** & **ipconfig /renew**.
+3. Tested raw IP connectivity using `ping 8.8.8.8`, which succeeded, confirming network connectivity beyond the local subnet.
+4. Tested hostname resolution using `nslookup` & `ping google.com`, which failed, indicating that it was a DNS related issue. 
+5. Reviewed workstation DNS settings using `ipconfig /all` & identified incorrect DNS server entires not pointing to the domain DNS server.
+6. Flushed the local DNS cache using `ipconfig /flushdns` & renewed IP address using `ipconfig /release` & `ipconfig /renew`.
 
 ## Root Cause
 The workstation was configured with incorrect DNS server settings, preventing proper hostname resolution. This caused applications & browsers to fail despite underlying network connectivity being functional for other workstations around.
@@ -36,7 +36,7 @@ The workstation was configured with incorrect DNS server settings, preventing pr
 ## Resolution
 - Corrected the workstation's DNS server settings to point to the internl Active Directory DNS Server.
 - Renewed the workstations's DHCP lease to ensure correct network parameters were applied.
-- Vrification of successful DNS resolution by using **nslookup** & confirmed access to both internal & external resources. 
+- Vrification of successful DNS resolution by using `nslookup` & confirmed access to both internal & external resources. 
 - Confirmed full internet connectivity by restoring and validating user access to the required applications. 
 
 ## Prevention / Best Practices
