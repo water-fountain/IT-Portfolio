@@ -12,7 +12,8 @@ A collection of enterprise infrastructure deployments, automated system auditing
 ![Group Policy](https://img.shields.io/badge/Group_Policy-0078D4?style=flat&logo=windows&logoColor=white)
 ![DNS & DHCP](https://img.shields.io/badge/DNS%20%26%20DHCP-217346?style=flat&logo=microsoft&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
-<summary><strong>More Information:</strong></summary>
+
+<strong>More Information:</strong>
 Architected a virtualized enterprise domain environment utilizing Windows Server 2019 to implement secure identity lifecycles and resilient network services.
 
 ### Core Deliverables:
@@ -28,7 +29,8 @@ Architected a virtualized enterprise domain environment utilizing Windows Server
 ![REST API Webhooks](https://img.shields.io/badge/REST_API-Webhooks-5865F2?style=flat&logo=discord&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-<summary><strong>More Information:</strong></summary>
+
+<strong>More Information:</strong>
 A custom PowerShell tool designed to monitor system health and send automated alerts. This project involved building an end-to-end pipeline that gathers hardware data, evaluates system status, and generates both a local visual dashboard and remote cloud alerts.
 
 ### Key Skills Demonstrated:
@@ -45,7 +47,8 @@ A custom PowerShell tool designed to monitor system health and send automated al
 ![Windows 10/11](https://img.shields.io/badge/Windows_10%2F11-0078D6?style=flat&logo=windows&logoColor=white)
 ![Incident Management](https://img.shields.io/badge/Incident-Management-D9381E?style=flat&logo=atlassian&logoColor=white)
 ![Troubleshooting](https://img.shields.io/badge/Troubleshooting-Diagnostic-2EA44F?style=flat&logo=github&logoColor=white)
-<summary>More Information:</summary>
+
+<strong>More Information:</strong>
 Simulates real-world IT help desk incidents to demonstrate structured troubleshooting, documentation, and resolution of common Windows and user access issues within an enterprise support context.
 
 ### Key Skills demonstrated:
@@ -62,10 +65,11 @@ Simulates real-world IT help desk incidents to demonstrate structured troublesho
 ![Windows 10/11](https://img.shields.io/badge/Windows_10%2F11-0078D6?style=flat&logo=windows&logoColor=white)
 ![Incident Management](https://img.shields.io/badge/Incident-Management-D9381E?style=flat&logo=atlassian&logoColor=white)
 ![Troubleshooting](https://img.shields.io/badge/Troubleshooting-Diagnostic-2EA44F?style=flat&logo=github&logoColor=white)
-<summary>More Information:</summary>
+
+<strong>More Information:</strong>
 Allows access to a Windows system or Windows Active Directory account, if you are locked out due to a forgotten password using the utilman.exe workaround. 
 
-### Key Skills demonstrated:
+### Key Skills Demonstrated:
 
 - Windows Account Management: Understanding local and Active Directory accounts, permissions, and policies
 - Password & Lockout Recovery: Safe application of the utilman.exe workaround to regain access to account
@@ -77,7 +81,7 @@ Allows access to a Windows system or Windows Active Directory account, if you ar
 
 🗄️[Stop Buying New Gear: Turn Your Dusty Old Laptop into a High-Power Home Server](https://github.com/water-fountain/IT-Portfolio/blob/main/Tech-Writing-Samples/Laptop-Pi-Home-Server-Guide.md)
 
-<summary><strong>More Information:</strong></summary>
+<strong>More Information:</strong>
 A conversational yet technical guide on how to convert an "obsolete" laptop into a functional home server with the simple addition of a Raspberry Pi.
 
 ### Key Skills Demonstrated:
