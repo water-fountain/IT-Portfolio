@@ -91,7 +91,7 @@ A conversational yet technical guide on how to convert an "obsolete" laptop into
 
 🗄️[Forgotten Your Windows Password? Here's How to Break Back In](https://github.com/water-fountain/Portfolio/blob/main/Tech-Writing-Samples/Windows-Recovery-Guide.md)
 
-<summary><strong>More Information:</strong></summary>
+<strong>More Information:</strong>
 A last "ditch" technical guide detailing how to regain system access using the Windows Recovery Environment (WinRE) to bypass the login screen without any data loss.
 
 ### Key Skills Demonstrated:
@@ -102,7 +102,7 @@ A last "ditch" technical guide detailing how to regain system access using the W
 
 🗄️[Why Your USB-C Cable Doesn’t Work (And How to Avoid Buying the Wrong One)](https://github.com/water-fountain/Portfolio/blob/main/Tech-Writing-Samples/USBC-Differences-Guide.md)
 
-<summary><strong>More Information:</strong></summary>
+<strong>More Information:</strong>
 A comprehensive feature breaking down the often-invisible logic behind USB-C hardware and Power Delivery (PD) protocols.
 
 ### Key Skills Demonstrated:
