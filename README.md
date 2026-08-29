@@ -22,7 +22,7 @@ Architected a virtualized enterprise domain environment utilizing Windows Server
 * Network Services: Integrated DNS, DHCP, and secure NTFS file sharing.
 * Diagnostics: Full-stack authentication and domain-join troubleshooting frameworks.
 
-📁 [Sentinel-Health Auditer](https://github.com/water-fountain/Portfolio/blob/main/SentinelHealth-Auditor/SentinelHealth.ps1)
+📁 [Sentinel-Health Auditer](https://github.com/water-fountain/Portfolio/blob/main/SentinelHealth-Auditor/README.md)
 
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
 ![WMI / CIM](https://img.shields.io/badge/WMI%20%2F%20CIM-0078D4?style=flat&logo=windows&logoColor=white)
