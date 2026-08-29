@@ -1,25 +1,34 @@
 # SentinelHealth Auditor v1.4
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
+![Windows Architecture](https://img.shields.io/badge/Windows-Server%2F10%2F11-0078D6?style=flat&logo=windows&logoColor=white)
+![HTML5 / CSS3](https://img.shields.io/badge/HTML5%2FCSS3-Dashboard-E34F26?style=flat&logo=html5&logoColor=white)
+![Automation](https://img.shields.io/badge/Automation-Webhooks-2EA44F?style=flat&logo=github&logoColor=white)
+
 Automated System Monitoring & Infrastructure Reporting
 
-## Project Overview
-SentinelHealth is a PowerShell-based auditing suite designed to provide real-time visibility into workstation health. It bridges the gap between raw hardware data and actionable administrative alerts by generating localized HTML5 dashboards and remote cloud-based notifications.
+## Executive Summary
+SentinelHealth is an automated, PowerShell-based auditing suite designed to deliver real-time visibility into Windows endpoint health. The tool bridges the gap between raw system metrics and actionable administrative alerting by generating localized HTML5 diagnostic dashboards and dispatching automated JSON payloads to remote cloud webhooks.
 
-## Key Features
-- Instant Alerts: Configured the script to push JSON data to a Discord Webhook. This provides real-time notifications when a machine hits critical thresholds (like low disk space or high RAM), removing the need for manual log checks.
-- Uptime Accuracy: Built a custom check for the "Fast Startup" (Hiberboot) registry key. This solves the common issue where Windows reports weeks of uptime even after a shutdown, so we can confirm if a system actually rebooted.
-- Real-Time Metrics: Switched to Get-Counter samples for CPU tracking. By normalizing the data against the total number of processor cores, the report shows actual current load rather than inflated cumulative totals.
-- Modern Reporting: Designed a sleek HTML/CSS dashboard for local reporting. I wanted the data to be easy to read at a glance for both techs and managers.
-- Portable Design: Used .NET environment classes for file pathing. This ensures the script runs without errors on systems with OneDrive-redirected Desktops or custom user profiles.
+## Core Capabilities & Features
 
-## AI Collaboration & Workflow
-This project was developed in collaboration with AI, which served as a technical peer for:
-- UI/UX Design: Refactoring raw HTML output into a high-contrast CSS dashboard for better readability.
-- Troubleshooting: Identifying character encoding issues (UTF-8) that caused rendering hangs in specific browsers.
-- Optimization: Refining complex PowerShell logic for real-time resource sampling.
+* **Real-Time Resource Monitoring:** Leverages `Get-Counter` sampling for accurate CPU tracking, normalizing data across total processor cores to prevent inflated cumulative load reporting.
+* **Accurate System Uptime Detection:** Queries the Windows "Fast Startup" (`Hiberboot`) registry key to differentiate between true kernel reboots and hybrid shutdowns.
+* **Multi-Channel Alerting:** Serializes system metric payloads to JSON and transmits instant alerts via Webhook API when endpoints cross critical thresholds (e.g., low disk space, elevated RAM usage).
+* **Modern Local Reporting:** Dynamically renders dynamic, high-contrast HTML5/CSS dashboards designed for technical staff and IT management.
+* **Cross-Environment Compatibility:** Built using .NET environment classes for path resolution, preventing execution errors on systems with redirected Desktop folders (OneDrive) or customized user profiles.
 
-## How to Use 
-1. Configure: Add your Webhook URL to the $WebhookUrl variable in the script found [here](https://github.com/water-fountain/Portfolio/blob/main/SentinelHealth-Auditor/SentinelHealth.ps1).
+## Engineering Collaboration & Optimization
 
-2. Run: Execute the script in PowerShell (requires Administrator privileges for registry and service checks).
+Developed with advanced technical scripting techniques, focusing on:
 
-3. Review: Check your Desktop for the SentinelHealth_Report.html and your designated Discord channel for the alert.
+* **UI/UX Refinement:** Engineered responsive CSS layouts to transform raw text output into clear, scannable visual dashboards.
+* **Encoding & Performance:** Resolved character encoding edge cases (UTF-8) that caused rendering hangs across varied browser engines.
+* **Resource Efficiency:** Optimized polling frequency and array handling within PowerShell to minimize script execution overhead.
+
+## Execution Guide
+
+1. **Configuration:** Add your Webhook URL to the `$WebhookUrl` parameter inside [**SentinelHealth.ps1**](./SentinelHealth.ps1).
+2. **Execution:** Run the script in an elevated PowerShell session (requires Administrator privileges for registry and service checks):
+   ```powershell
+   .\SentinelHealth.ps1
+3. Review: Open the generated `SentinelHealth_Report.html` on the local Desktop, or check your configured notification channel for the automated alert payload.
