@@ -51,7 +51,7 @@ A custom PowerShell tool designed to monitor system health and send automated al
 <strong>More Information:</strong>
 Simulates real-world IT help desk incidents to demonstrate structured troubleshooting, documentation, and resolution of common Windows and user access issues within an enterprise support context.
 
-### Key Skills demonstrated:
+### Key Skills Demonstrated:
 
 - Incident and problem documentation
 - Windows operating system troubleshooting
