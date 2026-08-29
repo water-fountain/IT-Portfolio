@@ -5,6 +5,10 @@
 ![DNS & DHCP](https://img.shields.io/badge/DNS%20%26%20DHCP-217346?style=flat&logo=microsoft&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat&logo=powershell&logoColor=white)
 
+For the full step-by-step configuration workflows, PowerShell commands, and detailed technical procedures, refer to the full guide:
+
+📁 [**Active Directory Home Lab**](./main_active_directory_lab_guide.md)
+
 ## Executive Summary
 This project demonstrates the deployment, administration, and security configuration of an enterprise Active Directory Domain Services (AD DS) environment using Windows Server 2019 and virtualized Windows client endpoints.
 
@@ -33,9 +37,3 @@ The lab simulates enterprise production conditions—covering identity lifecycle
 ### 4. Diagnostics & Troubleshooting Frameworks
 * **Authentication & Joins:** Documented diagnostic steps for domain-join failures, computer account trust relationship breakage, and network stack isolation.
 * **Group Policy Diagnostics:** Leveraged CLI utilities (`gpupdate /force`, `gpresult /h`) to verify policy inheritance and resolve link precedence issues.
-
-## Main Lab Guide & Documentation
-
-For the step-by-step configuration workflows, PowerShell commands, and detailed technical procedures, refer to the full guide:
-
-📄 [**Active Directory Home Lab**](./main_active_directory_lab_guide.md)
