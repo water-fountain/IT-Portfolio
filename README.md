@@ -5,7 +5,7 @@ A collection of enterprise infrastructure deployments, automated system auditing
 
 ## IT Projects Overview
 
-📁 [Active Directory Project](https://github.com/water-fountain/IT-Portfolio/blob/main/AD-Project/main_active_directory_lab_guide.md)
+📁 [Active Directory Project](https://github.com/water-fountain/Portfolio/blob/main/AD-Project/README.md)
 
 ![Windows Server 2019](https://img.shields.io/badge/Windows_Server_2019-0078D6?style=flat&logo=windows&logoColor=white)
 ![Active Directory](https://img.shields.io/badge/Active_Directory-0078D4?style=flat&logo=microsoft&logoColor=white)
